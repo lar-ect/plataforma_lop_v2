@@ -84,7 +84,7 @@ exports.recoverpassword = function(req, res){
                               });
      
                               var mailOptions = {
-                                 from: 'irms.solutions@gmail.com',
+                                 from: 'projetosect@gmail.com',
                                  to: email,
                                  subject: 'Recuperação de senha',
                                  text: 'Clique no link a seguir para recurerar sua senha: http://localhost:3000/resetpassword?code=' + code
